@@ -1,0 +1,9 @@
+- type: storeCategory
+  id: VendingWallMedicalInventory
+  name: store-category-vending-wall-medical
+  
+- type: storeCategory
+  id: VendingYooToolMachine
+  name: store-category-vending-yoo-tool
+  
+  
