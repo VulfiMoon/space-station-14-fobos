@@ -1,0 +1,71 @@
+- type: entity
+  id: StairRed
+  parent: Stairs
+  components:
+    - type: Sprite
+      sprite: _DeadSpace/Structures/Stairs.rsi
+      state: stairs_wood_red
+      drawdepth: FloorTiles
+      
+- type: entity
+  id: StairStageRed
+  parent: Stairs
+  components:
+    - type: Sprite
+      sprite: _DeadSpace/Structures/Stairs.rsi
+      state: stairs_stage_wood_red
+      drawdepth: FloorTiles
+      
+- type: entity
+  id: StairsDark
+  parent: Stairs
+  components:
+    - type: Sprite
+      sprite: _DeadSpace/Structures/Stairs.rsi
+      state: stairs_wood_dark
+      drawdepth: FloorTiles
+
+- type: entity
+  id: StairsStageDark
+  parent: Stairs
+  components:
+    - type: Sprite
+      sprite: _DeadSpace/Structures/Stairs.rsi
+      state: stairs_stage_wood_dark
+      drawdepth: FloorTiles
+      
+- type: entity
+  id: StairBlack
+  parent: Stairs
+  components:
+    - type: Sprite
+      sprite: _DeadSpace/Structures/Stairs.rsi
+      state: stairs_wood_black
+      drawdepth: FloorTiles
+
+- type: entity
+  id: StairStageBlack
+  parent: Stairs
+  components:
+    - type: Sprite
+      sprite: _DeadSpace/Structures/Stairs.rsi
+      state: stairs_stage_wood_black
+      drawdepth: FloorTiles
+      
+- type: entity
+  id: StairLight
+  parent: Stairs
+  components:
+    - type: Sprite
+      sprite: _DeadSpace/Structures/Stairs.rsi
+      state: stairs_wood_light
+      drawdepth: FloorTiles
+
+- type: entity
+  id: StairStageLight
+  parent: Stairs
+  components:
+    - type: Sprite
+      sprite: _DeadSpace/Structures/Stairs.rsi
+      state: stairs_stage_wood_light
+      drawdepth: FloorTiles
