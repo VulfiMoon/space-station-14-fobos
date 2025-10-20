@@ -2,7 +2,7 @@
   id: YooToolCableApcStack
   productEntity: CableApcStack
   cost:
-    SpaceCash: 25
+    SpaceCash: 30
   categories:
     - VendingYooToolMachine
   conditions:
@@ -68,7 +68,7 @@
   id: YooTooltrayScanner
   productEntity: trayScanner
   cost:
-    SpaceCash: 25
+    SpaceCash: 15
   categories:
     - VendingYooToolMachine
   conditions:
@@ -119,5 +119,24 @@
     - !type:ListingLimitedStockCondition
       stock: 3
 
+- type: listing
+  id: YooToolSprayPaintAmmo
+  productEntity: SprayPainterAmmo
+  cost:
+    SpaceCash: 25
+  categories:
+    - VendingYooToolMachine
+  conditions:
+    - !type:ListingLimitedStockCondition
+      stock: 5
 
-
+- type: listing
+  id: YooToolSprayPaint
+  productEntity: SprayPainter
+  cost:
+    SpaceCash: 25
+  categories:
+    - VendingYooToolMachine
+  conditions:
+    - !type:ListingLimitedStockCondition
+      stock: 2
