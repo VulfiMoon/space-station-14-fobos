@@ -144,6 +144,8 @@
       interfaces:
         enum.StoreUiKey.Key:
           type: StoreBoundUserInterface
+          
+- type: entity      
   parent: VendingMachineMedical
   id: VendingMachineMedicalTaipan
   name: СиндиМед Плюс
