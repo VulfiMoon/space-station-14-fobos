@@ -56,7 +56,7 @@
       drawdepth: FloorTiles
     - type: Construction
       graph: WoodStairs
-      node: stairssblack
+      node: stairsblack
 
 - type: entity
   id: StairStageBlack
