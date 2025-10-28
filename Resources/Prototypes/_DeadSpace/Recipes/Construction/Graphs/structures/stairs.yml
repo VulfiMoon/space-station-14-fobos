@@ -1,0 +1,478 @@
+#Wood Stairs
+- type: constructionGraph
+  id: WoodStairs
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: stairsstagered
+          steps:
+            - material: WoodPlank
+              amount: 5
+              doAfter: 1
+            - material: MetalRod
+              amount: 2
+              doAfter: 2
+              
+        - to: stairssred
+          steps:
+            - material: WoodPlank
+              amount: 5
+              doAfter: 1
+            - material: MetalRod
+              amount: 2
+              doAfter: 2
+              
+        - to: stairsstagelight
+          steps:
+            - material: WoodPlank
+              amount: 5
+              doAfter: 1
+            - material: MetalRod
+              amount: 2
+              doAfter: 2    
+              
+        - to: stairslight
+          steps:
+            - material: WoodPlank
+              amount: 5
+              doAfter: 1
+            - material: MetalRod
+              amount: 2
+              doAfter: 2
+              
+        - to: stairsstageblack
+          steps:
+            - material: WoodPlank
+              amount: 5
+              doAfter: 1
+            - material: MetalRod
+              amount: 2
+              doAfter: 2
+              
+        - to: stairsblack
+          steps:
+            - material: WoodPlank
+              amount: 5
+              doAfter: 1
+            - material: MetalRod
+              amount: 2
+              doAfter: 2
+
+        - to: stairsstagedark
+          steps:
+            - material: WoodPlank
+              amount: 5
+              doAfter: 1
+            - material: MetalRod
+              amount: 2
+              doAfter: 2
+
+        - to: stairsdark
+          steps:
+            - material: WoodPlank
+              amount: 5
+              doAfter: 1
+            - material: MetalRod
+              amount: 2
+              doAfter: 2
+
+        - to: stairsstagewood
+          steps:
+            - material: WoodPlank
+              amount: 5
+              doAfter: 1
+            - material: MetalRod
+              amount: 2
+              doAfter: 2
+
+        - to: stairswood
+          steps:
+            - material: WoodPlank
+              amount: 5
+              doAfter: 1
+            - material: MetalRod
+              amount: 2
+              doAfter: 2
+              
+    - node: stairsstagered
+      entity: StairStageRed
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: MaterialWoodPlank1
+              amount: 5
+            - !type:SpawnPrototype
+              prototype: PartRodMetal1
+              amount: 2
+            - !type:DeleteEntity
+          steps:
+            - tool: Welding
+              doAfter: 4
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+              
+    - node: stairssred
+      entity: StairRed
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: MaterialWoodPlank1
+              amount: 5
+            - !type:SpawnPrototype
+              prototype: PartRodMetal1
+              amount: 2
+            - !type:DeleteEntity
+          steps:
+            - tool: Welding
+              doAfter: 4
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+              
+    - node: stairsstagelight
+      entity: StairStageLight
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: MaterialWoodPlank1
+              amount: 5
+            - !type:SpawnPrototype
+              prototype: PartRodMetal1
+              amount: 2
+            - !type:DeleteEntity
+          steps:
+            - tool: Welding
+              doAfter: 4
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+
+    - node: stairslight
+      entity: StairLight
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: MaterialWoodPlank1
+              amount: 5
+            - !type:SpawnPrototype
+              prototype: PartRodMetal1
+              amount: 2
+            - !type:DeleteEntity
+          steps:
+            - tool: Welding
+              doAfter: 4
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+              
+    - node: stairsstageblack
+      entity: StairStageBlack
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: MaterialWoodPlank1
+              amount: 5
+            - !type:SpawnPrototype
+              prototype: PartRodMetal1
+              amount: 2
+            - !type:DeleteEntity
+          steps:
+            - tool: Welding
+              doAfter: 4
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+              
+    - node: stairsblack
+      entity: StairBlack
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: MaterialWoodPlank1
+              amount: 5
+            - !type:SpawnPrototype
+              prototype: PartRodMetal1
+              amount: 2
+            - !type:DeleteEntity
+          steps:
+            - tool: Welding
+              doAfter: 4
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+              
+    - node: stairsstagedark
+      entity: StairsStageDark
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: MaterialWoodPlank1
+              amount: 5
+            - !type:SpawnPrototype
+              prototype: PartRodMetal1
+              amount: 2
+            - !type:DeleteEntity
+          steps:
+            - tool: Welding
+              doAfter: 4
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+
+    - node: stairsdark
+      entity: StairsDark
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: MaterialWoodPlank1
+              amount: 5
+            - !type:SpawnPrototype
+              prototype: PartRodMetal1
+              amount: 2
+            - !type:DeleteEntity
+          steps:
+            - tool: Welding
+              doAfter: 4
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+
+    - node: stairsstagewood
+      entity: StairStageWood
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: MaterialWoodPlank1
+              amount: 5
+            - !type:SpawnPrototype
+              prototype: PartRodMetal1
+              amount: 2
+            - !type:DeleteEntity
+          steps:
+            - tool: Welding
+              doAfter: 4
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+
+    - node: stairswood
+      entity: StairWood
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: MaterialWoodPlank1
+              amount: 5
+            - !type:SpawnPrototype
+              prototype: PartRodMetal1
+              amount: 2
+            - !type:DeleteEntity
+          steps:
+            - tool: Welding
+              doAfter: 4
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+              
+#Steel Stairs
+
+- type: constructionGraph
+  id: SteelStairs
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: stairsstagesteelwhite
+          steps:
+            - material: Steel
+              amount: 5
+              doAfter: 1
+            - material: MetalRod
+              amount: 2
+              doAfter: 2
+
+        - to: stairssteelwhile
+          steps:
+            - material: Steel
+              amount: 5
+              doAfter: 1
+            - material: MetalRod
+              amount: 2
+              doAfter: 2
+
+        - to: stairsstagesteeldark
+          steps:
+            - material: Steel
+              amount: 5
+              doAfter: 1
+            - material: MetalRod
+              amount: 2
+              doAfter: 2
+
+        - to: stairsstelldark
+          steps:
+            - material: Steel
+              amount: 5
+              doAfter: 1
+            - material: MetalRod
+              amount: 2
+              doAfter: 2
+
+        - to: stairsstage
+          steps:
+            - material: Steel
+              amount: 5
+              doAfter: 1
+            - material: MetalRod
+              amount: 2
+              doAfter: 2
+
+        - to: stairs
+          steps:
+            - material: Steel
+              amount: 5
+              doAfter: 1
+            - material: MetalRod
+              amount: 2
+              doAfter: 2
+              
+    - node: stairsstagesteelwhite
+      entity: StairStageWhite
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 5
+            - !type:SpawnPrototype
+              prototype: PartRodMetal1
+              amount: 2
+            - !type:DeleteEntity
+          steps:
+            - tool: Welding
+              doAfter: 4
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+              
+    - node: stairssteelwhile
+      entity: StairWhite
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 5
+            - !type:SpawnPrototype
+              prototype: PartRodMetal1
+              amount: 2
+            - !type:DeleteEntity
+          steps:
+            - tool: Welding
+              doAfter: 4
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+              
+    - node: stairsstagesteeldark
+      entity: StairStageDark
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 5
+            - !type:SpawnPrototype
+              prototype: PartRodMetal1
+              amount: 2
+            - !type:DeleteEntity
+          steps:
+            - tool: Welding
+              doAfter: 4
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+
+    - node: stairsstelldark
+      entity: StairDark
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 5
+            - !type:SpawnPrototype
+              prototype: PartRodMetal1
+              amount: 2
+            - !type:DeleteEntity
+          steps:
+            - tool: Welding
+              doAfter: 4
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+              
+    - node: stairsstage
+      entity: StairStage
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 5
+            - !type:SpawnPrototype
+              prototype: PartRodMetal1
+              amount: 2
+            - !type:DeleteEntity
+          steps:
+            - tool: Welding
+              doAfter: 4
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+
+    - node: stairs
+      entity: Stairs
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 5
+            - !type:SpawnPrototype
+              prototype: PartRodMetal1
+              amount: 2
+            - !type:DeleteEntity
+          steps:
+            - tool: Welding
+              doAfter: 4
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2

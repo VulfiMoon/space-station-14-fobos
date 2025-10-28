@@ -309,4 +309,227 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
-  
+# Stairs
+- type: construction
+  id: StairsStageRed
+  name: construction-recipe-stairs-stage-red
+  graph: WoodStairs
+  startNode: start
+  targetNode: stairsstagered
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: StairsRed
+  name: construction-recipe-stairs-red
+  graph: WoodStairs
+  startNode: start
+  targetNode: stairssred
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+      
+- type: construction
+  id: StairsStageLight
+  name: construction-recipe-stairs-stage-light
+  graph: WoodStairs
+  startNode: start
+  targetNode: stairsstagelight
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: StairsLight
+  name: construction-recipe-stairs-light
+  graph: WoodStairs
+  startNode: start
+  targetNode: stairslight
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: StairsStageBlack
+  name: construction-recipe-stairs-stage-black
+  graph: WoodStairs
+  startNode: start
+  targetNode: stairsstageblack
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: StairsBlack
+  name: construction-recipe-stairs-black
+  graph: WoodStairs
+  startNode: start
+  targetNode: stairsblack
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+      
+- type: construction
+  id: StairsStageDark
+  name: construction-recipe-stairs-stage-dark
+  graph: WoodStairs
+  startNode: start
+  targetNode: stairsstagedark
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: StairsDark
+  name: construction-recipe-stairs-dark
+  graph: WoodStairs
+  startNode: start
+  targetNode: stairsdark
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+      
+- type: construction
+  id: StairsStageWood
+  name: construction-recipe-stairs-stage-wood
+  graph: WoodStairs
+  startNode: start
+  targetNode: stairsstagewood
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: StairsWood
+  name: construction-recipe-stairs-wood
+  graph: WoodStairs
+  startNode: start
+  targetNode: stairswood
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+      
+- type: construction
+  id: StairsStageSteelWhite
+  name: construction-recipe-stairs-stage-steel-white
+  graph: SteelStairs
+  startNode: start
+  targetNode: stairsstagesteelwhite
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: StairsSteelWhite
+  name: construction-recipe-stairs-steel-white
+  graph: SteelStairs
+  startNode: start
+  targetNode: stairssteelwhile
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+      
+- type: construction
+  id: StairsStage
+  name: construction-recipe-stairs-stage
+  graph: SteelStairs
+  startNode: start
+  targetNode: stairsstage
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: Stairs
+  name: construction-recipe-stairs
+  graph: SteelStairs
+  startNode: start
+  targetNode: stairs
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+      
+- type: construction
+  id: StairsSteelStageDark
+  name: construction-recipe-stairs-stage-steel-dark
+  graph: SteelStairs
+  startNode: start
+  targetNode: stairsstagesteeldark
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: StairsSteelDark
+  name: construction-recipe-stairs-steel-dark
+  graph: SteelStairs
+  startNode: start
+  targetNode: stairsstelldark
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked

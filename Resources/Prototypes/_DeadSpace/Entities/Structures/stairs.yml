@@ -6,6 +6,9 @@
       sprite: _DeadSpace/Structures/Stairs.rsi
       state: stairs_wood_red
       drawdepth: FloorTiles
+    - type: Construction
+      graph: WoodStairs
+      node: StairRed      
       
 - type: entity
   id: StairStageRed
@@ -15,7 +18,10 @@
       sprite: _DeadSpace/Structures/Stairs.rsi
       state: stairs_stage_wood_red
       drawdepth: FloorTiles
-      
+    - type: Construction
+      graph: WoodStairs
+      node: stairsstagered
+
 - type: entity
   id: StairsDark
   parent: Stairs
@@ -24,6 +30,9 @@
       sprite: _DeadSpace/Structures/Stairs.rsi
       state: stairs_wood_dark
       drawdepth: FloorTiles
+    - type: Construction
+      graph: WoodStairs
+      node: stairsdark
 
 - type: entity
   id: StairsStageDark
@@ -33,6 +42,9 @@
       sprite: _DeadSpace/Structures/Stairs.rsi
       state: stairs_stage_wood_dark
       drawdepth: FloorTiles
+    - type: Construction
+      graph: WoodStairs
+      node: stairstsstagedark
       
 - type: entity
   id: StairBlack
@@ -42,6 +54,9 @@
       sprite: _DeadSpace/Structures/Stairs.rsi
       state: stairs_wood_black
       drawdepth: FloorTiles
+    - type: Construction
+      graph: WoodStairs
+      node: stairsblack
 
 - type: entity
   id: StairStageBlack
@@ -51,6 +66,9 @@
       sprite: _DeadSpace/Structures/Stairs.rsi
       state: stairs_stage_wood_black
       drawdepth: FloorTiles
+    - type: Construction
+      graph: WoodStairs
+      node: stairsstageblack
       
 - type: entity
   id: StairLight
@@ -60,6 +78,9 @@
       sprite: _DeadSpace/Structures/Stairs.rsi
       state: stairs_wood_light
       drawdepth: FloorTiles
+    - type: Construction
+      graph: WoodStairs
+      node: stairslight
 
 - type: entity
   id: StairStageLight
@@ -69,3 +90,7 @@
       sprite: _DeadSpace/Structures/Stairs.rsi
       state: stairs_stage_wood_light
       drawdepth: FloorTiles
+    - type: Construction
+      graph: WoodStairs
+      node: stairsstagelight
+
