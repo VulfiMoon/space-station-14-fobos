@@ -2,7 +2,7 @@
   id: WallMedicalBrutepack
   productEntity: Brutepack
   cost:
-    SpaceCash: 15
+    SpaceCash: 25
   categories:
     - VendingWallMedicalInventory
   conditions:
@@ -13,7 +13,7 @@
   id: WallMedicalOintment
   productEntity: Ointment
   cost:
-    SpaceCash: 15
+    SpaceCash: 25
   categories:
     - VendingWallMedicalInventory
   conditions:
@@ -24,7 +24,7 @@
   id: WallMedicalGauze
   productEntity: Gauze
   cost:
-    SpaceCash: 5
+    SpaceCash: 15
   categories:
     - VendingWallMedicalInventory
   conditions:
