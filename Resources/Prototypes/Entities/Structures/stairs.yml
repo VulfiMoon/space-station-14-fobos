@@ -72,7 +72,7 @@
 # DS14-start
   - type: Construction
     graph: SteelStairs
-    node: stairssteelwhile
+    node: stairssteelwhite
 # DS14-end
 
 - type: entity
@@ -102,7 +102,7 @@
 # DS14-start
   - type: Construction
     graph: SteelStairs
-    node: stairsstelldark
+    node: stairssteeldark
 # DS14-end
 
 - type: entity
