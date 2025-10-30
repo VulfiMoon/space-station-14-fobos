@@ -329,7 +329,7 @@
   name: construction-recipe-stairs-red
   graph: WoodStairs
   startNode: start
-  targetNode: stairssred
+  targetNode: stairsred
   category: construction-category-structures
   objectType: Structure
   placementMode: SnapgridCenter
@@ -469,7 +469,7 @@
   name: construction-recipe-stairs-steel-white
   graph: SteelStairs
   startNode: start
-  targetNode: stairssteelwhile
+  targetNode: stairssteelwhite
   category: construction-category-structures
   objectType: Structure
   placementMode: SnapgridCenter
@@ -525,7 +525,7 @@
   name: construction-recipe-stairs-steel-dark
   graph: SteelStairs
   startNode: start
-  targetNode: stairsstelldark
+  targetNode: stairssteeldark
   category: construction-category-structures
   objectType: Structure
   placementMode: SnapgridCenter
