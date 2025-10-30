@@ -216,7 +216,7 @@
         doAfter: 2
 
   - node: stairstagewooddark
-    entity: StairsStageWoodDark
+    entity: StairStageWoodDark
     edges:
     - to: start
       completed:

@@ -309,6 +309,7 @@
   canBuildInImpassable: false
   conditions:
   - !type:TileNotBlocked
+
   # Stairs
 - type: construction
   id: StairsStageWoodRed
@@ -395,7 +396,7 @@
   - !type:TileNotBlocked
 
 - type: construction
-  id: StairsStageWoodDark
+  id: StairStageWoodDark
   name: construction-recipe-stairs-stage-dark
   graph: WoodStairs
   startNode: start
